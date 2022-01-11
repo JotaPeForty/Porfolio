@@ -1,4 +1,60 @@
 .container_proyectos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     width: 100vw;
     height: 100vh;
+
+    img{
+        height: 40rem;
+    }
+}
+
+.cont_proyect{
+
+
+
+    td{
+        display:flex;
+        flex-direction: column;
+    align-items: center;
+        border: 1px solid #000000
+    }
+
+    img{
+        height: 10rem;
+
+        :hover{
+            background-color: #000000
+        }
+    }
+}
+
+.pro_icons{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    h3{
+        padding-right: 1rem;
+    }
+}
+.pro_tube,
+.pro_link{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    a{
+        color: #000000 !important;
+    }
+}
+
+.pro_tube{
+    font-size: 1.7rem;
+    padding-top: 0.5rem;
+}
+.pro_link{
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
 }

@@ -30,14 +30,14 @@ const Habilidades = () => {
             </tr>
             <tr>
             <td>
-              <a href="https://developer.mozilla.org/es/docs/Web/CSS">
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noreferrer">
                 <img src={css} alt="CSS" />
               </a>
               <br />
               CSS 3
             </td>
             <td>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
                 <img src={js} alt="Javascript" />
               </a>
               <br />
@@ -46,21 +46,21 @@ const Habilidades = () => {
             </tr>
             <tr>
             <td>
-              <a href="https://reactjs.org/">
+              <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                 <img src={react} alt="ReactJS" />
               </a>
               <br />
               ReactJS
             </td>
             <td>
-              <a href="https://redux.js.org/">
+              <a href="https://redux.js.org/" target="_blank" rel="noreferrer">
                 <img src={redux} alt="Redux" />
               </a>
               <br />
               Redux
             </td>
             <td>
-              <a href="https://nodejs.org/en/">
+              <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
                 <img src={node} alt="NodeJS" />
               </a>
               <br />
@@ -69,35 +69,35 @@ const Habilidades = () => {
             </tr>
             <tr>
             <td>
-              <a href="https://expressjs.com/">
+              <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
                 <img src={express} alt="ExpressJS" />
               </a>
               <br />
               ExpressJS
             </td>
             <td>
-              <a href="https://www.postgresql.org/">
+              <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
                 <img src={postgres} alt="Postgresql" />
               </a>
               <br />
               PostgreSQL
             </td>
             <td>
-              <a href="https://sequelize.org/">
+              <a href="https://sequelize.org/" target="_blank" rel="noreferrer">
                 <img src={sequelize} alt="sequelize" />
               </a>
               <br />
               Sequelize
             </td>
             <td>
-              <a href="https://git-scm.com/">
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                 <img src={sass} alt="git" />
               </a>
               <br />
               Sass
             </td>
             <td>
-              <a href="https://git-scm.com/">
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                 <img src={git} alt="git" />
               </a>
               <br />
