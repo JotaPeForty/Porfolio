@@ -10,7 +10,7 @@ import postgres from "../Img/icons/psql.png";
 import sequelize from "../Img/icons/sequelize.png";
 import sass from "../Img/icons/sass.png";
 import git from "../Img/icons/git.png";
-import cert from "../Img/Certificate.png";
+import cert from "../Img/certificate.png";
 import "../Style/Habilidades.scss";
 
 const Habilidades = () => {

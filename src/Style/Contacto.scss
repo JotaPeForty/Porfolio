@@ -1,8 +1,32 @@
-.container_contacto{
+.container_contacto {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     width: 100vw;
     height: 100vh;
+
+    table {
+        text-align: center;
+
+        img {
+            height: 3rem;
+        }
+    }
+
+    img {
+        height: 40rem;
+    }
+}
+
+.cont_td {
+    border: 1px solid #000000;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.contact {
+    width: 50rem;
+    height: 10rem;
 }
