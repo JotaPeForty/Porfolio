@@ -10,7 +10,7 @@ import postgres from "../Img/icons/psql.png";
 import sequelize from "../Img/icons/sequelize.png";
 import sass from "../Img/icons/sass.png";
 import git from "../Img/icons/git.png";
-import cert from "../Img/certificate.png";
+import cer from "../Img/certificate.png";
 import {FormattedMessage} from 'react-intl';
 import "../Style/Habilidades.scss";
 
@@ -108,7 +108,7 @@ const Habilidades = () => {
         </table>
       </div>
       <div>
-        <img src={cert} alt="certificate"/>
+        <img src={cer} alt="certificate"/>
       </div>
     </div>
   );
