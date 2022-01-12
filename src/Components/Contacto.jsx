@@ -5,13 +5,14 @@ import lin from "../Img/icons/linkedin.png";
 import torre from "../Img/icons/torre.png";
 import twitter from "../Img/icons/twitter.png";
 import wp from "../Img/icons/whatsapp.png";
+import {FormattedMessage} from 'react-intl';
 import "../Style/Contacto.scss";
 
 const Contacto = () => {
   return (
     <div className="container_contacto" id="Contacto">
       <div>
-        <h1>Contacto</h1>
+        <h1><FormattedMessage id="Contactos.h1" defaultMessage="Contactos"/></h1>
         <br/>
         <table>
           <tr>

@@ -1,16 +1,20 @@
 import React from "react";
 import { FaYoutube, FaExternalLinkAlt } from "react-icons/fa";
 import "../Style/Proyectos.scss";
+//import {LangProvider} from "../Context/langContext"
+import {FormattedMessage} from 'react-intl';
 import launch from "../Img/launch.png";
 import climapp from "../Img/proyect/climApp.jpg";
 import pronto from "../Img/proyect/muypronto.jpg";
+//import cooming from "../Img/proyect/commingsoon.jpg";
 import gimme from "../Img/proyect/gimmearide.jpg";
 
 const Proyectos = () => {
+  //console.log(lang)
   return (
     <div className="container_proyectos" id="Proyectos">
       <div className="cont_proyect">
-        <h1>Proyectos</h1>
+        <h1><FormattedMessage id="Proyectos.h1" defaultMessage="Proyectos"/></h1>
         <table>
           <tr>
             <td>
@@ -34,7 +38,7 @@ const Proyectos = () => {
               </div>
             </td>
             <td>
-              <img src={pronto} alt="ClimApp" />
+              <img src={pronto} alt="muypronto" />
               <div className="pro_icons">
                 <h3>FoodApp</h3>
                 <div className="pro_tube">
@@ -52,7 +56,7 @@ const Proyectos = () => {
           </tr>
           <tr>
             <td>
-              <img src={pronto} alt="ClimApp" />
+              <img src={pronto} alt="muypronto" />
               <div className="pro_icons">
                 <h3>DogApp</h3>
                 <div className="pro_tube">
@@ -72,7 +76,7 @@ const Proyectos = () => {
               </div>
             </td>
             <td>
-              <img src={gimme} alt="ClimApp" />
+              <img src={gimme} alt="Gimmearide" />
               <div className="pro_icons">
                 <h3>Gimmearide</h3>
                 <div className="pro_tube">

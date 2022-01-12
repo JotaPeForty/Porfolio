@@ -1,0 +1,22 @@
+{
+    "Navbar.inicio":"Home",
+    "Navbar.acercademi":"AboutMe",
+    "Navbar.habilidades":"Skills",
+    "Navbar.proyectos":"Projects",
+    "Navbar.contacto":"Contact",
+
+    "Inicio.h1a":"Welcome to",
+    "Inicio.h1b":"My Portfolio",
+
+    "acercademi.h1":"About me",
+    "acercademi.p1":"👉 Hello, my name is Juan Pablo, I'm a Full Stack Developer and Photographer. I returned to this wonderful IT world, after spending 14 years in a different field, which gave me the experience of transforming a sector of the company and form an excellent team as well as the daily challenge of solving problems. I feel it is time to put my experience together with all my knowledge at the disposal of whoever needs it in this new stage.",
+    "acercademi.p2":"I started learning the basics, then PC and network repair, then I discovered design and learned some tools by myself, until my first web design course. Then I studied half of the career of Technical Sup. in photography, which gave me more tools and knowledge in design, and today with more advanced knowledge (JavaScript, React, Redux, NodeJs, Express, PosgreSQL, HTML5, CSS3, Sass) and a whole world and languages to continue discovering.",
+    "acercademi.p3":"Today I am at the gates of a new stage of my life, to gather all I have learned and to grow in this IT world, so I am looking for that human group to grow more, and together ....",
+    "acercademi.p4":"If you think I am what you are looking for....",
+
+    "Habilidades.h1":"Skills",
+
+    "Proyectos.h1": "Projects",
+    
+    "Contactos.h1": "Contact"
+}

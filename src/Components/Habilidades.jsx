@@ -11,13 +11,14 @@ import sequelize from "../Img/icons/sequelize.png";
 import sass from "../Img/icons/sass.png";
 import git from "../Img/icons/git.png";
 import cert from "../Img/certificate.png";
+import {FormattedMessage} from 'react-intl';
 import "../Style/Habilidades.scss";
 
 const Habilidades = () => {
   return (
     <div className="container_habilidades" id="Habilidades">
       <div className="cont_icons">
-        <h1>Lenguajes y herramientas</h1>
+        <h1><FormattedMessage id="Habilidades.h1" defaultMessage="Habilidades"/></h1>
         <table>
           <tr>
             <td>
