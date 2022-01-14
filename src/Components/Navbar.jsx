@@ -5,7 +5,7 @@ import en from "../Img/lang/united-kingdom.png";
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../Context/langContext.js";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FaMoon, FaSun } from "react-icons/fa";
+//import { FaMoon, FaSun } from "react-icons/fa";
 
 const Navbar = () => {
   const idioma = useContext(langContext);
