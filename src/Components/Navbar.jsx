@@ -4,7 +4,6 @@ import es from "../Img/lang/spain.png";
 import en from "../Img/lang/united-kingdom.png";
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../Context/langContext.js";
-import { GiHamburgerMenu } from "react-icons/gi";
 //import { FaMoon, FaSun } from "react-icons/fa";
 
 const Navbar = () => {
