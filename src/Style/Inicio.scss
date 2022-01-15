@@ -17,6 +17,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        overflow: hidden;
 
         img {
             width: 25rem
@@ -24,27 +25,23 @@
     }
 
     @media screen and (max-width: 768px) {
-        width: 150vw;
-        height: 150vh;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        justify-content: space-evenly;
+        margin-top: 10rem;
+        margin-left: 1rem;
+        margin-bottom: 10rem;
+        
+        
 
         img {
-            width: 45rem
+            width: 25rem
         }
     }
 
     @media screen and (max-width: 500px) {
-        width: 250vw;
-        height: 250vh;
-        display: flex;
+        margin-top: 60rem;
+        margin-left: 12rem;
+        margin-bottom: 60rem;
         flex-direction: column;
-        align-content: center;
-        align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
         img {
             width: 45rem
@@ -52,13 +49,14 @@
     }
 
     @media screen and (max-width: 375px) {
-        width: 250vw;
-        height: 250vh;
+        width: 100vw;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
         justify-content: space-evenly;
+        overflow: hidden;
 
         img {
             width: 45rem
@@ -88,18 +86,3 @@
     }
 
 }
-
-// @media screen and (max-width: 1360px) {
-
-// }
-
-// @media screen and (max-width: 768px) {
-
-// }
-
-// @media screen and (max-width: 500px) {
-
-// }
-
-// @media screen and (max-width: 375px) {
-// }
