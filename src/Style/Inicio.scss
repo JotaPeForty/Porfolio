@@ -1,4 +1,4 @@
-.container_inicio{
+.container_inicio {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -6,13 +6,100 @@
     align-items: center;
     justify-content: space-evenly;
 
-    img{
+    img {
         width: 45rem
+    }
+
+    @media screen and (max-width: 1360px) {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 25rem
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 150vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 45rem
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        width: 250vw;
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 45rem
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 250vw;
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 45rem
+        }
     }
 }
 
-.container_H1{
-        text-align: center;
+.container_H1 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #ff5500da;
+
+    @media screen and (max-width: 1360px) {
+        font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 768px) {
         font-size: 2rem;
-        text-shadow: 2px 2px 2px #ff5500da;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 2rem;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 2rem;
+    }
+
 }
+
+// @media screen and (max-width: 1360px) {
+
+// }
+
+// @media screen and (max-width: 768px) {
+
+// }
+
+// @media screen and (max-width: 500px) {
+
+// }
+
+// @media screen and (max-width: 375px) {
+// }

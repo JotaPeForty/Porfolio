@@ -13,14 +13,11 @@ const Navbar = () => {
 
   return (
     <div className="container_navbar">
-      <div className="button_H3">
-        <button>
-          <GiHamburgerMenu />
-        </button>
+      <div className="cont_H3">
         <h3>Juan Pablo Benavente</h3>
       </div>
       <nav>
-        <a href="#Inicio">
+        <a href="/">
           <FormattedMessage id="Navbar.inicio" defaultMessage="Inicio" />
         </a>
         <a href="#AcercaDeMi">
