@@ -1,4 +1,6 @@
-.container_inicio {
+import styled from "styled-components";
+
+export const ContInicio = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -46,9 +48,9 @@
 
 
     }
-}
+`;
 
-.container_H1 {
+export const ContH1 = styled.div`
     text-align: center;
     font-size: 2rem;
     text-shadow: 2px 2px 2px #ff5500da;
@@ -68,5 +70,4 @@
     @media screen and (max-width: 375px) {
         font-size: 2rem;
     }
-
-}
+`;

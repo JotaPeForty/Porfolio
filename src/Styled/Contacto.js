@@ -1,5 +1,7 @@
-.container_contacto {
-    display: flex;
+import styled from "styled-components";
+
+export const ContContacto = styled.div`
+display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -17,16 +19,20 @@
     img {
         height: 40rem;
     }
-}
+`;
 
-.cont_td {
+export const ContTd = styled.div`
     border: 1px solid #000000;
     text-align: center;
     width: 100px;
     height: 100px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+`;
 
-.contact {
+export const Contact = styled.img`
     width: 50rem;
     height: 10rem;
-}
+`;

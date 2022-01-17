@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/Home.scss";
+import { ContHome } from "../Styled/Home.js";
 import Navbar from "./Navbar";
 import Inicio from "./Inicio";
 import AcercaDeMi from "./AcercaDeMi";
@@ -9,14 +9,14 @@ import Contacto from "./Contacto";
 
 const Home = () => {
   return (
-    <div className="home">
+    <ContHome>
       <Navbar />
       <Inicio />
       <AcercaDeMi />
       <Habilidades />
       <Proyectos />
       <Contacto />
-    </div>
+    </ContHome>
   );
 };
 

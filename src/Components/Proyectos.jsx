@@ -1,7 +1,6 @@
 import React from "react";
+import { ContProyectos, ContProyect, ProIcons, ProTube, ProLink } from "../Styled/Proyectos";
 import { FaYoutube, FaExternalLinkAlt } from "react-icons/fa";
-import "../Style/Proyectos.scss";
-//import {LangProvider} from "../Context/langContext"
 import {FormattedMessage} from 'react-intl';
 import launch from "../Img/launch.png";
 import climapp from "../Img/proyect/climApp.jpg";
@@ -12,21 +11,21 @@ import gimme from "../Img/proyect/gimmearide.jpg";
 const Proyectos = () => {
   //console.log(lang)
   return (
-    <div className="container_proyectos" id="Proyectos">
-      <div className="cont_proyect">
+    <ContProyectos id="Proyectos">
+      <ContProyect>
         <h1><FormattedMessage id="Proyectos.h1" defaultMessage="Proyectos"/></h1>
         <table>
           <tr>
             <td>
               <img src={climapp} alt="ClimApp" />
-              <div className="pro_icons">
+              <ProIcons>
                 <h3>ClimApp</h3>
-                <div className="pro_tube">
+                <ProTube>
                   <a href="https:" target="_blank" rel="noreferrer">
                     <FaYoutube />
                   </a>
-                </div>
-                <div className="pro_link">
+                </ProTube>
+                <ProLink>
                   <a
                     href="https://clim-app-spa.vercel.app/"
                     target="_blank"
@@ -34,37 +33,37 @@ const Proyectos = () => {
                   >
                     <FaExternalLinkAlt />
                   </a>
-                </div>
-              </div>
+                </ProLink>
+              </ProIcons>
             </td>
             <td>
               <img src={pronto} alt="muypronto" />
-              <div className="pro_icons">
+              <ProIcons>
                 <h3>FoodApp</h3>
-                <div className="pro_tube">
+                <ProTube>
                   <a href="https://" target="_blank" rel="noreferrer">
                     <FaYoutube />
                   </a>
-                </div>
-                <div className="pro_link">
+                </ProTube>
+                <ProLink>
                   <a href="https://" target="_blank" rel="noreferrer">
                     <FaExternalLinkAlt />
                   </a>
-                </div>
-              </div>
+                </ProLink>
+              </ProIcons>
             </td>
           </tr>
           <tr>
             <td>
               <img src={pronto} alt="muypronto" />
-              <div className="pro_icons">
+              <ProIcons>
                 <h3>DogApp</h3>
-                <div className="pro_tube">
+                <ProTube>
                   <a href="https:" target="_blank" rel="noreferrer">
                     <FaYoutube />
                   </a>
-                </div>
-                <div className="pro_link">
+                </ProTube>
+                <ProLink>
                   <a
                     href="https://clim-app-spa.vercel.app/"
                     target="_blank"
@@ -72,32 +71,32 @@ const Proyectos = () => {
                   >
                     <FaExternalLinkAlt />
                   </a>
-                </div>
-              </div>
+                </ProLink>
+              </ProIcons>
             </td>
             <td>
               <img src={gimme} alt="Gimmearide" />
-              <div className="pro_icons">
+              <ProIcons>
                 <h3>Gimmearide</h3>
-                <div className="pro_tube">
+                <ProTube>
                   <a href="https://" target="_blank" rel="noreferrer">
                     <FaYoutube />
                   </a>
-                </div>
-                <div className="pro_link">
+                </ProTube>
+                <ProLink>
                   <a href="https://gimmearide.vercel.app/" target="_blank" rel="noreferrer">
                     <FaExternalLinkAlt />
                   </a>
-                </div>
-              </div>
+                </ProLink>
+              </ProIcons>
             </td>
           </tr>
         </table>
-      </div>
+      </ContProyect>
       <div>
         <img src={launch} alt="Proyectos" />
       </div>
-    </div>
+    </ContProyectos>
   );
 };
 

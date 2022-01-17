@@ -1,4 +1,5 @@
 import React from "react";
+import { ContHabilidades, ContIcons } from "../Styled/Habilidades";
 import html from "../Img/icons/html5.png";
 import css from "../Img/icons/CSS3.png";
 import js from "../Img/icons/JavaScript.png";
@@ -12,12 +13,12 @@ import sass from "../Img/icons/sass.png";
 import git from "../Img/icons/git.png";
 import skills from "../Img/skills.png";
 import {FormattedMessage} from 'react-intl';
-import "../Style/Habilidades.scss";
+
 
 const Habilidades = () => {
   return (
-    <div className="container_habilidades" id="Habilidades">
-      <div className="cont_icons">
+    <ContHabilidades id="Habilidades">
+      <ContIcons>
         <h1><FormattedMessage id="Habilidades.h1" defaultMessage="Habilidades"/></h1>
         <table>
           <tr>
@@ -106,11 +107,11 @@ const Habilidades = () => {
             </td>
           </tr>
         </table>
-      </div>
+      </ContIcons>
       <div>
         <img src={skills} alt="skills"/>
       </div>
-    </div>
+    </ContHabilidades>
   );
 };
 

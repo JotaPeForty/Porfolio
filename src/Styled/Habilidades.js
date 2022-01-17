@@ -1,4 +1,6 @@
-.container_habilidades {
+import styled from "styled-components";
+
+export const ContHabilidades = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,9 +30,9 @@
     img{
         height: 40rem;
     }
-}
+`;
 
-.cont_icons{
+export const ContIcons = styled.div`
     display: flex;
     flex-direction: column;
-}
+`;

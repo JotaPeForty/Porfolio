@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "../Style/Navbar.scss";
+import { ContNavBar, ContBtn, BanderasBtn } from "../Styled/NavBar.js";
 import es from "../Img/lang/spain.png";
 import en from "../Img/lang/united-kingdom.png";
 import { FormattedMessage } from "react-intl";
@@ -9,10 +9,9 @@ import { langContext } from "../Context/langContext.js";
 const Navbar = () => {
   const idioma = useContext(langContext);
 
-
   return (
-    <div className="container_navbar">
-      <div className="cont_H3">
+    <ContNavBar>
+      <div>
         <h3>Juan Pablo Benavente</h3>
       </div>
       <nav>
@@ -38,19 +37,15 @@ const Navbar = () => {
           <FormattedMessage id="Navbar.contacto" defaultMessage="Contacto" />
         </a>
       </nav>
-      <div className="cont_btn">
-        <button
-          onClick={() => idioma.establecerLenguaje("es-AR")}
-          className="banderas"
-        >
+      <ContBtn>
+        <BanderasBtn
+          onClick={() => idioma.establecerLenguaje("es-AR")}>
           <img src={es} alt="en" />
-        </button>
-        <button
-          onClick={() => idioma.establecerLenguaje("en-US")}
-          className="banderas"
-        >
+        </BanderasBtn>
+        <BanderasBtn
+          onClick={() => idioma.establecerLenguaje("en-US")}>
           <img src={en} alt="sp" />
-        </button>
+        </BanderasBtn>
         {/* <button
           className="switch"
           id="switch"
@@ -66,8 +61,8 @@ const Navbar = () => {
             <FaMoon />
           </span>
         </button> */}
-      </div>
-    </div>
+      </ContBtn>
+    </ContNavBar>
   );
 };
 

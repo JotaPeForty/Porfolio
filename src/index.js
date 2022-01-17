@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { LangProvider } from "./Context/langContext";
 ReactDOM.render(
-  <LangProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </LangProvider>,
+  
+    <LangProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </LangProvider>,
   document.getElementById("root")
 );
 

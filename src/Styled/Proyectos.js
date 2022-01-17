@@ -1,5 +1,7 @@
-.container_proyectos{
-    display: flex;
+import styled from "styled-components";
+
+export const ContProyectos = styled.div`
+display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -9,15 +11,11 @@
     img{
         height: 40rem;
     }
-}
+`;
 
-.cont_proyect{
-
-
-
-    td{
-        
-        flex-direction: column;
+export const ContProyect = styled.div`
+td{
+    flex-direction: column;
     align-items: center;
         border: 1px solid #000000
     }
@@ -29,10 +27,10 @@
             background-color: #000000
         }
     }
-}
+`;
 
-.pro_icons{
-    display: flex;
+export const ProIcons = styled.div`
+display: flex;
     align-items: center;
     justify-content: space-around;
     
@@ -41,22 +39,27 @@
         padding-right: 1rem;
         padding-left: 1rem;
     }
-}
-.pro_tube,
-.pro_link{
-    text-align: center;
+`;
+
+export const ProTube = styled.div`
+text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
+    font-size: 1.7rem;
+    padding-top: 0.5rem;
+
     a{
         color: #000000 !important;
     }
-}
+`;
 
-.pro_tube{
-    font-size: 1.7rem;
-    padding-top: 0.5rem;
-}
-.pro_link{
+export const ProLink = styled.div`
+text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 1.5rem;
     padding-top: 0.3rem;
-}
+    a{
+        color: #000000 !important;
+    }
+`;
