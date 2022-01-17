@@ -26,25 +26,27 @@ export const ContInicio = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        width: 1150px;
-        height: 1500px;
         flex-direction: column;
 
         img {
-            width: 45rem
+            width: 35rem
         }
     }
 
     @media screen and (max-width: 500px) {
-        width: 970px;
-        height: 2000px;
+        margin-top: 3rem;
+
+        img {
+            width: 15rem
+        }
 
        
     }
 
     @media screen and (max-width: 375px) {
-        width: 750px;
-        height: 1800px;
+        img {
+            width: 15rem
+        }
 
 
     }
@@ -64,10 +66,10 @@ export const ContH1 = styled.div`
     }
 
     @media screen and (max-width: 500px) {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     @media screen and (max-width: 375px) {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 `;
