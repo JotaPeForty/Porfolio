@@ -12,6 +12,9 @@ const Proyectos = () => {
   //console.log(lang)
   return (
     <ContProyectos id="Proyectos">
+          <div>
+        <img src={launch} alt="Proyectos" />
+      </div>
       <ContProyect>
         <h1><FormattedMessage id="Proyectos.h1" defaultMessage="Proyectos"/></h1>
         <table>
@@ -93,9 +96,7 @@ const Proyectos = () => {
           </tr>
         </table>
       </ContProyect>
-      <div>
-        <img src={launch} alt="Proyectos" />
-      </div>
+
     </ContProyectos>
   );
 };

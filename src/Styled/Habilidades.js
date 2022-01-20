@@ -104,14 +104,4 @@ export const ContIcons = styled.div`
   flex-direction: column;
 `;
 
-// @media screen and (max-width: 1360px) {
-// }
 
-// @media screen and (max-width: 768px) {
-// }
-
-// @media screen and (max-width: 500px) {
-// }
-
-// @media screen and (max-width: 375px) {
-// }

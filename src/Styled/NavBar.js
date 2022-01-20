@@ -64,7 +64,7 @@ export const MenuLink = styled.a`
   }
 
   @media screen and (max-width: 375px) {
-    padding: 0.7rem 0.3rem 0.7rem 0.3rem;
+    padding: 0.7rem 0.2rem 0.7rem 0.2rem;
   }
 
   &:hover {
