@@ -18,6 +18,9 @@ import {FormattedMessage} from 'react-intl';
 const Habilidades = () => {
   return (
     <ContHabilidades id="Habilidades">
+    <div>
+        <img src={skills} alt="skills"/>
+      </div>
       <ContIcons>
         <h1><FormattedMessage id="Habilidades.h1" defaultMessage="Habilidades"/></h1>
         <table>
@@ -108,9 +111,7 @@ const Habilidades = () => {
           </tr>
         </table>
       </ContIcons>
-      <div>
-        <img src={skills} alt="skills"/>
-      </div>
+      
     </ContHabilidades>
   );
 };
