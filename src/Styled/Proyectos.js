@@ -8,28 +8,28 @@ export const ContProyectos = styled.div`
   width: 100vw;
   height: 100vh;
 
-  img {
-    height: 40rem;
-  }
-
-  @media screen and (max-width: 1360px) {
-    img {
-      height: 20rem;
-    }
-  }
 
   @media screen and (max-width: 768px) {
       flex-direction: column;
       justify-content: flex-end;
-      margin-bottom: 5rem;
 
 
   }
 
+
+`;
+
+export const PrimaryImg = styled.img`
+height: 40rem;
+@media screen and (max-width: 1360px) {
+      height: 20rem;
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 3rem;
+  }
   @media screen and (max-width: 500px) {
-    img {
     height: 10rem;
-    }
+
   }
 `;
 
@@ -60,10 +60,11 @@ export const ContProyect = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-
+    margin-bottom: 8rem;
   }
 
   @media screen and (max-width: 500px) {
+    margin-bottom: 2rem;
   }
 `;
 
@@ -80,7 +81,7 @@ export const ProIcons = styled.div`
   @media screen and (max-width: 1360px) {
     h3 {
         font-size:1rem;
-      padding:0.3rem;
+        padding:0.3rem;
     }
   }
 

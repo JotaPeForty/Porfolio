@@ -1,5 +1,5 @@
 import React from "react";
-import { ContProyectos, ContProyect, ProIcons, ProTube, ProLink } from "../Styled/Proyectos";
+import { ContProyectos, ContProyect, ProIcons, ProTube, ProLink, PrimaryImg } from "../Styled/Proyectos";
 import { FaYoutube, FaExternalLinkAlt } from "react-icons/fa";
 import {FormattedMessage} from 'react-intl';
 import launch from "../Img/launch.png";
@@ -13,7 +13,7 @@ const Proyectos = () => {
   return (
     <ContProyectos id="Proyectos">
           <div>
-        <img src={launch} alt="Proyectos" />
+        <PrimaryImg src={launch} alt="Proyectos" />
       </div>
       <ContProyect>
         <h1><FormattedMessage id="Proyectos.h1" defaultMessage="Proyectos"/></h1>
