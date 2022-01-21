@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContProyectos = styled.div`
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   width: 100vw;
@@ -138,14 +138,3 @@ export const ProLink = styled.div`
   }
 `;
 
-// @media screen and (max-width: 1360px) {
-// }
-
-// @media screen and (max-width: 768px) {
-// }
-
-// @media screen and (max-width: 500px) {
-// }
-
-// @media screen and (max-width: 375px) {
-// }

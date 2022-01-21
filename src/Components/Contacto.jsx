@@ -1,5 +1,5 @@
 import React from "react";
-import { ContContacto, ContTd, Contact } from "../Styled/Contacto";
+import { ContContacto, ContTd, ContImg } from "../Styled/Contacto";
 import contact from "../Img/contact.png";
 import mail from "../Img/icons/mail.png";
 import lin from "../Img/icons/linkedin.png";
@@ -14,7 +14,6 @@ const Contacto = () => {
     <ContContacto id="Contacto">
       <div>
         <h1><FormattedMessage id="Contactos.h1" defaultMessage="Contactos"/></h1>
-        <br/>
         <table>
           <tr>
             <ContTd>
@@ -77,9 +76,9 @@ const Contacto = () => {
           </tr>
         </table>
       </div>
-      <div>
-        <Contact src={contact} alt="Contact"/>
-      </div>
+      <ContImg>
+        <img src={contact} alt="Contact"/>
+      </ContImg>
     </ContContacto>
   );
 };
